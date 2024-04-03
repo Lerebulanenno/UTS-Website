@@ -12,3 +12,73 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background: #FF9B9B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 20px;
+    color: #40128B;
+    text-decoration: none;
+    font-weight: 100;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 17px;
+    color: #40128B;
+    text-decoration: none;
+    margin-left: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F900BF;
+    transition: .4s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+/*End Navbar*/
+
+/*responsivitas*/
+
+/*media Handphone*/
+@media only screen and (max-width: 767px) {
+    .body {
+        font-size: 55%;
+    }
+}
+
+/*media Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+    font-size: 62.5%;
+    }  
+}
+
+/*media perangkat desktop*/
+@media screen and (min-width: 1025px) {
+    .header {
+        font-size: 75%;
+    }  
+}
