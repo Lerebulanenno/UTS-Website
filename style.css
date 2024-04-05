@@ -36,7 +36,7 @@ body {
 
 .navbar a {
     position: relative;
-    font-size: 17px;
+    font-size: 19px;
     color: #40128B;
     text-decoration: none;
     margin-left: 20px;
@@ -69,17 +69,6 @@ body {
     }
 }
 
-/*media Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
-    font-size: 1.2vw;
-    }  
-}
-
-/*media perangkat desktop*/
-
-/*responsivitas*/
-
 /*Content box*/
 
 .container {
@@ -87,7 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 100px;
+    margin-top: auto;
 }
 
 .content-box {
@@ -159,6 +148,13 @@ section {
 }
 
 /*menu section*/
+.Menu {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background-color: #FF9B9B;
+    text-align: center;
+}
 
 .container h2 {
     margin-bottom: 30px;
@@ -167,7 +163,7 @@ section {
     display: block;
 }
 
-.Menu-items {
+.Kelas-Menu {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 0;
