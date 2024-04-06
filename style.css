@@ -60,16 +60,6 @@ body {
 }
 /*End Navbar*/
 
-/*responsivitas*/
-
-/*media Handphone*/
-@media only screen and (max-width: 767px) {
-    .body {
-        font-size: 1vw;
-    }
-}
-
-/*Content box*/
 
 .container {
     display: block;
@@ -93,6 +83,7 @@ body {
 }
 /*End content-box*/
 
+/*Start home section*/
 section {
     padding: 2rem 9%;
 }
@@ -146,6 +137,7 @@ section {
 .btn:hover {
     background: #FF4B91;
 }
+/*End Home Section*/
 
 /*menu section*/
 .Menu {
@@ -199,3 +191,85 @@ section {
     margin-bottom: 15px;
 }
 /*end menu section*/
+
+/* CSS untuk footer */
+footer {
+    background-color: #FBF3D5;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    background-color: #FBF3D5;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #F7C566;
+    opacity: 0.9;
+}
+
+/*Hover effeccts on social media icon*/
+.socialIcons a:hover {
+    background-color: #F7C566;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: #FF004D;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-style: oblique;
+}
+
+.footerNav ul li a {
+  color: #FF004D;  
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+   opacity: 1;
+}
+
+.footerBottom {
+    background-color: #FF9B9B;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom {
+    color: #40128B;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+/*end footer css*/
