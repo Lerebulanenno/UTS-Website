@@ -143,7 +143,7 @@ section {
 .Menu {
     width: 100%;
     height: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: #FF9B9B;
     text-align: center;
 }
@@ -159,11 +159,10 @@ section {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 0;
-  
 }
 
 .Menu-item {
-    width: 320px;
+    width: 300px;
     margin: 0 15px 30px;
     background-color: #fff;
     padding: 12px;
@@ -183,6 +182,7 @@ section {
     font-size: 20px;
     margin-top: 15px;
     color: #333;
+    font-weight: bold;
 }
 
 .Menu-item p {
@@ -393,3 +393,94 @@ footer {
     margin: 0px 5px;
 }
 /*end footer css*/
+
+/* Media queries untuk semua bagian */
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .navbar a {
+        font-size: 16px;
+    }
+
+    /* Konten Box */
+    .content-box {
+        max-width: 600px;
+    }
+
+    /* Home Section */
+    .Home .content {
+        max-width: 400px;
+    }
+
+    /* Menu Section */
+    .Menu-item {
+        width: 200px;
+        margin: 0 10px 20px;
+    }
+
+    /* Hero Section */
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    /* Recipe Section */
+    .recipe-card {
+        margin: 20px 5px;
+    }
+
+    /* Footer */
+    .footerContainer {
+        padding: 50px 20px 10px;
+    }
+
+    .socialIcons {
+        margin-bottom: 20px;
+    }
+
+    .footerNav ul li a {
+        margin: 10px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Navbar */
+    .navbar a {
+        font-size: 14px;
+    }
+
+    /* Konten Box */
+    .content-box {
+        max-width: 400px;
+    }
+
+    /* Home Section */
+    .Home .content {
+        max-width: 300px;
+    }
+
+    /* Menu Section */
+    .Menu-item {
+        width: 150px;
+        margin: 0 5px 15px;
+    }
+
+    /* Hero Section */
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    /* Recipe Section */
+    .recipe-card {
+        margin: 15px 5px;
+    }
+
+    /* Footer */
+    .footerContainer {
+        padding: 40px 10px 10px;
+    }
+
+    .footerNav ul li a {
+        margin: 5px;
+        font-size: 0.9em;
+    }
+}
