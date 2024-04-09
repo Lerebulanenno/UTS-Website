@@ -92,7 +92,7 @@ section {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(pexels-dominika-roseclay-1982485.jpg);
+    background: url(background\ home.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -190,7 +190,119 @@ section {
     color: #666;
     margin-bottom: 15px;
 }
-/*end menu section*/
+/*******end menu section**********/
+
+
+/*section Hero start*/
+.hero {
+    width: 100%;
+    height: auto;
+    background: url(recipe\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 140px 0;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #211951;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:  #211951;
+}
+
+.search-box {
+    max-width: 550px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box input {
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    border: 1px solid #FF4B91;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1rem;
+    background: #FF4B91;
+    color: #280274;
+    cursor: pointer;
+}
+/*section Hero End*/
+
+/*section content Recipe start*/
+.recipes {
+    padding: 50px 0;
+    background: #FF9B9B;
+}
+
+.recipes h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.recipe-section {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.recipe-card {
+    background: #fff;
+    margin: 30px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.recipe-card h2 {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.recipe-card p {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.recipe-card a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #F7C566;
+    color: #FF4B91;
+    padding: 15px 0;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+}
 
 /* CSS untuk footer */
 footer {
@@ -200,6 +312,14 @@ footer {
 .footerContainer {
     width: 100%;
     padding: 70px 30px 20px;
+}
+
+.footerContainer h2 {
+    text-align: center;
+    font-style: oblique;
+    color: #FF5BAE;
+    font-size: medium;
+    letter-spacing: 1px;
 }
 
 .socialIcons {
@@ -273,56 +393,3 @@ footer {
     margin: 0px 5px;
 }
 /*end footer css*/
-
-/*Content section recipe*/
-.resep {
-    width: 100%;
-    height: auto;
-    background: url(recipe\ \(2\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.resep h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-    color: #211951;
-}
-.resep p {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color:  #211951;
-}
-
-.search-box {
-    max-width: 550px;
-    margin: 15px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.search-box input {
-    width: 70%;
-    padding: 10px;
-    outline: none;
-    border: 0;
-    border-radius: 5px 0 0 5px;
-    font-size: 1rem;
-    border: 1px solid #FF4B91;
-}
-
-.search-box button {
-    padding: 10px 20px;
-    outline: none;
-    border: 0;
-    border-radius: 0px 5px 5px 0px;
-    font-size: 1rem;
-    background: #FF4B91;
-    color: #280274;
-    cursor: pointer;
-}
